@@ -1,27 +1,25 @@
 # koda-releases
 
-Public host for [koda](https://github.com/xinquiry/koda) release artifacts.
-
-The koda source lives in a private repository. Prebuilt binaries, install
-scripts, and checksums for every tagged release are attached to the GitHub
-Releases on this repo.
+Public host for koda release artifacts. The koda source lives in a private
+repository; prebuilt binaries, install scripts, and checksums for every
+tagged release are attached to the GitHub Releases on this repo.
 
 ## Install
 
 Shell:
 
 ```sh
-curl --proto '=https' --tlsv1.2 -LsSf https://github.com/xinquiry/koda-releases/releases/latest/download/koda-cli-installer.sh | sh
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/xinquiry/koda-releases/releases/latest/download/koda-installer.sh | sh
 ```
 
 Homebrew:
 
 ```sh
-brew install xinquiry/tap/koda-cli
+brew install xinquiry/tap/koda
 ```
 
-npm:
+## Supported platforms
 
-```sh
-npm install -g @koda-ai/koda-cli
-```
+- Apple Silicon macOS (`aarch64-apple-darwin`)
+- ARM64 Linux, static musl (`aarch64-unknown-linux-musl`)
+- x86_64 Linux, static musl (`x86_64-unknown-linux-musl`)
