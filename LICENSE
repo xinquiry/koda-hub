@@ -1,0 +1,107 @@
+Koda License Agreement
+
+Copyright (c) 2026 xinquiry. All rights reserved.
+
+Koda is a personal software project distributed as compiled binaries only.
+The source code is not made publicly available. This License governs your
+use of those binaries.
+
+By downloading, installing, or using the Software, you agree to be bound by
+the terms of this License. If you do not agree, you must not install or use
+the Software.
+
+1. Grant of License
+
+   Subject to your compliance with this License, the copyright holder grants
+   you a limited, non-exclusive, non-transferable, non-sublicensable,
+   revocable license to install and use the Software on devices you
+   personally own or control, solely for personal, non-commercial purposes.
+
+2. Prohibited Uses
+
+   You may not, and may not permit any third party to:
+
+   (a) Use the Software for any commercial purpose, including but not
+       limited to use in a for-profit product, service, workflow, or
+       consulting engagement, or in furtherance of monetary compensation;
+
+   (b) Distribute, publish, sublicense, sell, rent, lease, or otherwise
+       make the Software available to any third party, except by directing
+       them to the official distribution channels listed in Section 3;
+
+   (c) Modify, adapt, translate, or create derivative works based on the
+       Software;
+
+   (d) Reverse engineer, decompile, disassemble, or attempt to derive the
+       source code of the Software, except and only to the extent that
+       such activity is expressly permitted by applicable law
+       notwithstanding this limitation;
+
+   (e) Remove, alter, or obscure any copyright, trademark, or other
+       proprietary notices contained in or accompanying the Software;
+
+   (f) Use the Software in any manner that violates any applicable law or
+       regulation, or infringes the rights of any third party.
+
+3. Official Distribution Channels
+
+   The Software is distributed exclusively through the following channels:
+
+   - https://github.com/xinquiry/koda-releases
+   - https://github.com/xinquiry/homebrew-tap
+
+   Any copy of the Software obtained outside these channels is unauthorized
+   and not licensed under this Agreement.
+
+4. Ownership
+
+   The Software is licensed, not sold. All right, title, and interest in
+   and to the Software, including all intellectual property rights, are
+   and shall remain the exclusive property of the copyright holder. This
+   License does not grant you any rights to trademarks, service marks, or
+   trade names of the copyright holder.
+
+5. Commercial Licensing
+
+   If you wish to use the Software for commercial purposes, please contact
+   the copyright holder to negotiate a separate commercial license.
+
+6. Third-Party Components
+
+   The Software may include third-party open-source components governed by
+   their own licenses. Nothing in this License is intended to limit your
+   rights or the copyright holder's obligations under those licenses.
+
+7. Termination
+
+   This License is effective until terminated. Your rights under this
+   License will terminate automatically and without notice if you fail to
+   comply with any term of this License. Upon termination, you must cease
+   all use of the Software and destroy all copies in your possession or
+   control.
+
+8. Disclaimer of Warranty
+
+   THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY
+   OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+   WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+   NONINFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING
+   OR USAGE OF TRADE. THE COPYRIGHT HOLDER DOES NOT WARRANT THAT THE
+   SOFTWARE WILL BE UNINTERRUPTED, ERROR-FREE, OR SECURE.
+
+9. Limitation of Liability
+
+   IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY DIRECT,
+   INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+   (INCLUDING BUT NOT LIMITED TO PROCUREMENT OF SUBSTITUTE GOODS OR
+   SERVICES, LOSS OF USE, DATA, OR PROFITS, OR BUSINESS INTERRUPTION)
+   ARISING IN ANY WAY OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE,
+   EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+10. General
+
+    This License constitutes the entire agreement between you and the
+    copyright holder regarding the Software and supersedes any prior
+    understanding. If any provision of this License is held to be
+    unenforceable, the remaining provisions shall continue in full force
+    and effect.
