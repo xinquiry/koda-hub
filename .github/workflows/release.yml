@@ -334,9 +334,13 @@ jobs:
           # Write and read notes from a file to avoid quoting breaking things
           echo "$ANNOUNCEMENT_BODY" > $RUNNER_TEMP/notes.txt
 
+          # `gh` infers the target repo from the git remote of the checked-out
+          # workspace — which is the PRIVATE xinquiry/koda — so it must be
+          # pointed at this repo explicitly. (Missing this was the first run's
+          # failure: HTTP 404 on api.github.com/repos/xinquiry/koda/releases.)
           # The tag is created on this repo's default branch (the private
           # repo's SHA does not exist here).
-          gh release create "${{ needs.plan.outputs.tag }}" --target main $PRERELEASE_FLAG --title "$ANNOUNCEMENT_TITLE" --notes-file "$RUNNER_TEMP/notes.txt" artifacts/*
+          gh release create "${{ needs.plan.outputs.tag }}" --repo xinquiry/koda-releases --target main $PRERELEASE_FLAG --title "$ANNOUNCEMENT_TITLE" --notes-file "$RUNNER_TEMP/notes.txt" artifacts/*
 
   publish-homebrew-formula:
     needs:
