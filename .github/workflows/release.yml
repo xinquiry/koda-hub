@@ -1,6 +1,6 @@
-# Release builder for xinquiry/koda-releases.
+# Release builder for xinquiry/koda-hub.
 #
-# This workflow lives in the PUBLIC koda-releases repo on purpose: Actions on
+# This workflow lives in the PUBLIC koda-hub repo on purpose: Actions on
 # public repositories are free and unmetered, so the expensive build matrix
 # (including 10x-cost macOS runners) runs at zero Actions-minutes cost. The
 # private source repo (xinquiry/koda) no longer builds releases itself.
@@ -8,7 +8,7 @@
 # Layout:
 #   * xinquiry/koda          — private source; `just release` tags and pushes
 #                              there, then fires the dispatch below.
-#   * xinquiry/koda-releases — public; hosts this workflow, the release
+#   * xinquiry/koda-hub — public; hosts this workflow, the release
 #                              artifacts, and the Homebrew-installed binaries.
 #   * xinquiry/homebrew-tap  — public; receives formula commits.
 #
@@ -340,7 +340,7 @@ jobs:
           # failure: HTTP 404 on api.github.com/repos/xinquiry/koda/releases.)
           # The tag is created on this repo's default branch (the private
           # repo's SHA does not exist here).
-          gh release create "${{ needs.plan.outputs.tag }}" --repo xinquiry/koda-releases --target main $PRERELEASE_FLAG --title "$ANNOUNCEMENT_TITLE" --notes-file "$RUNNER_TEMP/notes.txt" artifacts/*
+          gh release create "${{ needs.plan.outputs.tag }}" --repo xinquiry/koda-hub --target main $PRERELEASE_FLAG --title "$ANNOUNCEMENT_TITLE" --notes-file "$RUNNER_TEMP/notes.txt" artifacts/*
 
   publish-homebrew-formula:
     needs:
