@@ -16,7 +16,7 @@ See [`LICENSE`](LICENSE) — the same file is bundled inside every release tarba
 Shell (macOS & Linux):
 
 ```sh
-curl --proto '=https' --tlsv1.2 -LsSf https://github.com/xinquiry/koda-releases/releases/latest/download/koda-installer.sh | sh
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/xinquiry/koda-hub/releases/latest/download/koda-installer.sh | sh
 ```
 
 Homebrew (macOS):
